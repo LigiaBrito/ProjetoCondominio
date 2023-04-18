@@ -1,6 +1,8 @@
 package com.example.projetocondominio;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import android.content.Intent;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -47,7 +49,8 @@ public class MainActivity2 extends AppCompatActivity {
 
                 Toast.makeText(getApplicationContext(), "Entrada registrada com sucesso", Toast.LENGTH_SHORT).show();
 
-                finish();
+                Intent intent = new Intent(MainActivity2.this, MostrarEntradaSaida.class);
+                startActivity(intent);
             }
         });
 

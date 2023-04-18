@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "283838783159",
+    "firebase_url": "https://condominio-80c73-default-rtdb.firebaseio.com",
+    "project_id": "condominio-80c73",
+    "storage_bucket": "condominio-80c73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283838783159:android:61df850bbcdd4f3e67f732",
+        "android_client_info": {
+          "package_name": "com.example.projetocondominio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283838783159-848d88491jk6620lo53h7f45vfeibblg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZW5fuN89atLmRhEGLwZYmmx5NsKefloE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283838783159-848d88491jk6620lo53h7f45vfeibblg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

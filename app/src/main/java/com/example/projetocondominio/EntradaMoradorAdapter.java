@@ -30,8 +30,10 @@ public class EntradaMoradorAdapter extends RecyclerView.Adapter<EntradaMoradorAd
     @Override
     public void onBindViewHolder(@NonNull EntradaMoradorViewHolder holder, int position) {
         EntradaMorador entradaMorador = mEntradaMoradorList.get(position);
-        holder.dataTextView.setText(entradaMorador.getHoraEntrada());
-        holder.moradorTextView.setText(entradaMorador.getNome());
+        holder.dataTextView.setText("Data Entrada: " + entradaMorador.getData());
+        holder.horaTextView.setText("Hora Entrada: " + entradaMorador.getHoraEntrada());
+        holder.moradorTextView.setText("Nome:"+entradaMorador.getNome());
+        holder.numeroCondominioTextView.setText("Numero condominio:"+String.valueOf(entradaMorador.getNumeroCondominio()));
     }
 
     @Override
@@ -42,12 +44,16 @@ public class EntradaMoradorAdapter extends RecyclerView.Adapter<EntradaMoradorAd
     public static class EntradaMoradorViewHolder extends RecyclerView.ViewHolder {
 
         TextView dataTextView;
+        TextView horaTextView;
         TextView moradorTextView;
+        TextView numeroCondominioTextView;
 
         public EntradaMoradorViewHolder(@NonNull View itemView) {
             super(itemView);
             dataTextView = itemView.findViewById(R.id.tv_data_entrada);
+            horaTextView = itemView.findViewById(R.id.tv_hora_entrada);
             moradorTextView = itemView.findViewById(R.id.tv_nome_morador);
+            numeroCondominioTextView = itemView.findViewById(R.id.numero_condominio);
         }
     }
 }

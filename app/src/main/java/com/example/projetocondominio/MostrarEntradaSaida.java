@@ -49,7 +49,6 @@ public class MostrarEntradaSaida extends AppCompatActivity {
                 EntradaMoradorAdapter adapter = new EntradaMoradorAdapter(MostrarEntradaSaida.this, entradaMoradorList);
                 RecyclerView recyclerView = findViewById(R.id.recycler_view);
                 recyclerView.setAdapter(adapter);
-
             }
 
             @Override

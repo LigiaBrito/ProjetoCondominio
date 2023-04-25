@@ -4,13 +4,15 @@ public class EntradaMorador {
     private String nome;
     private String numeroCondominio;
     private String horaEntrada;
+    private String data;
 
     public EntradaMorador() {}
 
-    public EntradaMorador(String nome, String numeroCondominio, String horaEntrada) {
+    public EntradaMorador(String nome, String numeroCondominio, String horaEntrada, String data) {
         this.nome = nome;
         this.numeroCondominio = numeroCondominio;
         this.horaEntrada = horaEntrada;
+        this.data = data;
     }
 
     public String getNome() {
@@ -35,5 +37,13 @@ public class EntradaMorador {
 
     public void setHoraEntrada(String horaEntrada) {
         this.horaEntrada = horaEntrada;
+    }
+
+    public String getData() {
+        return data;
+    }
+
+    public void setData(String data) {
+        this.data = data;
     }
 }

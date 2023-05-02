@@ -40,9 +40,10 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View v) {
                 String nomeMorador = nomeMoradorEditText.getText().toString();
                 String numeroCondominio = numeroCondominioEditText.getText().toString();
-                String horaEntrada = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.getDefault()).format(new Date());
+                String horaEntrada = new SimpleDateFormat("HH:mm:ss", Locale.getDefault()).format(new Date());
+                String data = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
 
-                EntradaMorador entradaMorador = new EntradaMorador(nomeMorador, numeroCondominio, horaEntrada);
+                EntradaMorador entradaMorador = new EntradaMorador(nomeMorador, numeroCondominio, horaEntrada,data);
 
                 DatabaseReference entradaRef = databaseReference.child("entrada").push();
                 entradaRef.setValue(entradaMorador);

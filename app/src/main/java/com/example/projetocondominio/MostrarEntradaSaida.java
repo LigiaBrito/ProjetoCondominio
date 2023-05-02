@@ -1,6 +1,7 @@
 package com.example.projetocondominio;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -41,8 +42,13 @@ public class MostrarEntradaSaida extends AppCompatActivity {
                     EntradaMorador entradaMorador = entradaSnapshot.getValue(EntradaMorador.class);
                     entradaMoradorList.add(entradaMorador);
                 }
+
                 // Pass the list of EntradaMorador objects to the adapter
                 // and display them in the RecyclerView
+                // Inside onDataChange method of MostrarEntradaSaida
+                EntradaMoradorAdapter adapter = new EntradaMoradorAdapter(MostrarEntradaSaida.this, entradaMoradorList);
+                RecyclerView recyclerView = findViewById(R.id.recycler_view);
+                recyclerView.setAdapter(adapter);
             }
 
             @Override

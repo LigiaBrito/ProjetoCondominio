@@ -12,6 +12,12 @@
         android:theme="@style/Theme.ProjetoCondominio"
         tools:targetApi="31">
         <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateEntrada"
+            android:exported="false" />
+        <activity
             android:name=".MostrarEntradaSaida"
             android:exported="false" />
         <activity

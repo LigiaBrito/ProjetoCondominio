@@ -3,14 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_deletar_morador.xml" value="0.5" />
         <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_form_cadastro.xml" value="0.21979166666666666" />
-        <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_form_login.xml" value="0.21979166666666666" />
-        <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_home.xml" value="0.21979166666666666" />
+        <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_form_login.xml" value="0.2318840579710145" />
+        <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_home.xml" value="0.2318840579710145" />
         <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_mostrar_entrada_saida.xml" value="0.33" />
         <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_tela_principal.xml" value="0.2" />
-        <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_update_entrada.xml" value="0.22" />
+        <entry key="..\:/Users/joao.carvalho43/Documents/GitHub/ProjetoCondominio/app/src/main/res/layout/activity_update_entrada.xml" value="0.2318840579710145" />
       </map>
     </option>
   </component>

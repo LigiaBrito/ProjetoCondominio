@@ -4,10 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/marrom_claro"
     tools:context=".Home">
 
     <Button
         android:id="@+id/btnAlterar"
+        style="@style/Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Alterar"
@@ -16,38 +18,53 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.115" />
+        app:layout_constraintVertical_bias="0.533" />
 
     <Button
         android:id="@+id/btnDeletar"
+        style="@style/Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Deletar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.215" />
+        app:layout_constraintVertical_bias="0.697" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        style="@style/Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.861" />
 
     <Button
         android:id="@+id/btnInserir"
-        android:layout_width="98dp"
-        android:layout_height="48dp"
+        style="@style/Button"
+        android:layout_width="129dp"
+        android:layout_height="81dp"
         android:text="Inserir"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.315" />
+        app:layout_constraintVertical_bias="0.354" />
 
     <Button
         android:id="@+id/btnMostrar"
+        style="@style/Button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="280dp"
-        android:layout_marginEnd="156dp"
+        android:layout_marginTop="136dp"
+        android:layout_marginEnd="140dp"
         android:text="Mostrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
